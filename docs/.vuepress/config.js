@@ -2,7 +2,7 @@ module.exports = {
   title: 'lavaclient',
   theme: "yuu",
   head: require("./config/head"),
-  base: "https://lavaclient.github.io/docs/",
+  base: "/docs/",
   themeConfig: {
     yuu: {
       colorThemes: ['red', 'purple'],
