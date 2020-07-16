@@ -18,7 +18,7 @@ jobs:
         if: success()
         uses: crazy-max/ghaction-github-pages@v1
         with:
-          build_dir: docs
+          build_dir: docs/.vuepress/dist
           commit_message: 'docs: build and deploy docs'
           fqdn: lavaclient.js.org
           keep_history: true
