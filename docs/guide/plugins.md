@@ -1,11 +1,14 @@
 ## Plugins
 
-> In Version 3 plugins have once changed but they aren't very different.
+Plugins allow for lavaclient's behavior to be changed externally, albeit not very much.
+
+v4 will hopefully have a wider range of features when it comes to plugins.
 
 ### Official Plugins
 
-- [Lavaclient REST](https://npmjs.com/lavaclient-rest)
-- [Lavaclient Queue](https://npmjs.com/lavaclient-queue)
+- [Lavaclient REST](https://npmjs.com/@lavaclient/rest)
+- [Lavaclient Queue](https://npmjs.com/@lavaclient/queue)
+- [Lavaclient Spotify](https://npmjs.com/@lavaclient/spotify)
 
 ### Creating Your Own
 
