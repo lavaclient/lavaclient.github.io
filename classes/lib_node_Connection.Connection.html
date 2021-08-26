@@ -136,6 +136,9 @@
 								<a href="lib_node_Connection.Connection.html#active" class="tsd-kind-icon">active</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="lib_node_Connection.Connection.html#canReconnect" class="tsd-kind-icon">can<wbr>Reconnect</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
 								<a href="lib_node_Connection.Connection.html#uptime" class="tsd-kind-icon">uptime</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -228,6 +231,7 @@
 							<h3>Accessors</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="lib_node_Connection.Connection.html#active" class="tsd-kind-icon">active</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="lib_node_Connection.Connection.html#canReconnect" class="tsd-kind-icon">can<wbr>Reconnect</a></li>
 								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="lib_node_Connection.Connection.html#uptime" class="tsd-kind-icon">uptime</a></li>
 							</ul>
 						</section>
@@ -262,7 +266,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L20">src/lib/node/Connection.ts:20</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L20">lib/node/Connection.ts:20</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -287,7 +291,7 @@
 					<div class="tsd-signature tsd-kind-icon">[_<wbr>socket]<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">WebSocket</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L18">src/lib/node/Connection.ts:18</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L18">lib/node/Connection.ts:18</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -297,7 +301,7 @@
 					<div class="tsd-signature tsd-kind-icon">connected<wbr>At<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L16">src/lib/node/Connection.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L16">lib/node/Connection.ts:16</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -321,7 +325,7 @@
 					<div class="tsd-signature tsd-kind-icon">payload<wbr>Queue<span class="tsd-signature-symbol">:</span> <a href="../interfaces/lib_node_Connection.OutgoingPayload.html" class="tsd-signature-type" data-tsd-kind="Interface">OutgoingPayload</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L15">src/lib/node/Connection.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L15">lib/node/Connection.ts:15</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -331,7 +335,7 @@
 					<div class="tsd-signature tsd-kind-icon">reconnect<wbr>Try<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 0</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L14">src/lib/node/Connection.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L14">lib/node/Connection.ts:14</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -341,7 +345,7 @@
 					<div class="tsd-signature tsd-kind-icon">CLIENT_<wbr>NAME<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;lavaclient&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L12">src/lib/node/Connection.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L12">lib/node/Connection.ts:12</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -358,7 +362,24 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L23">src/lib/node/Connection.ts:23</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L23">lib/node/Connection.ts:23</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="canReconnect" class="tsd-anchor"></a>
+					<h3>can<wbr>Reconnect</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> canReconnect<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L27">lib/node/Connection.ts:27</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -375,7 +396,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L27">src/lib/node/Connection.ts:27</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L32">lib/node/Connection.ts:32</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -395,7 +416,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L123">src/lib/node/Connection.ts:123</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L128">lib/node/Connection.ts:128</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -418,7 +439,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L150">src/lib/node/Connection.ts:150</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L152">lib/node/Connection.ts:152</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -441,7 +462,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L155">src/lib/node/Connection.ts:155</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L157">lib/node/Connection.ts:157</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -464,7 +485,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L114">src/lib/node/Connection.ts:114</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L119">lib/node/Connection.ts:119</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -481,7 +502,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L191">src/lib/node/Connection.ts:191</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L193">lib/node/Connection.ts:193</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -504,7 +525,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L80">src/lib/node/Connection.ts:80</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L85">lib/node/Connection.ts:85</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -521,7 +542,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L41">src/lib/node/Connection.ts:41</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L46">lib/node/Connection.ts:46</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -538,7 +559,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L69">src/lib/node/Connection.ts:69</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L74">lib/node/Connection.ts:74</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -564,7 +585,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L92">src/lib/node/Connection.ts:92</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L97">lib/node/Connection.ts:97</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -581,7 +602,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L101">src/lib/node/Connection.ts:101</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L106">lib/node/Connection.ts:106</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -598,7 +619,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Connection.ts#L32">src/lib/node/Connection.ts:32</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L37">lib/node/Connection.ts:37</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -630,6 +651,7 @@
 				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
 				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>

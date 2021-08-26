@@ -156,14 +156,8 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="lib_node_Node.Node.html#destroyPlayer" class="tsd-kind-icon">destroy<wbr>Player</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
-								<a href="lib_node_Node.Node.html#emit" class="tsd-kind-icon">emit</a>
-							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="lib_node_Node.Node.html#handleVoiceUpdate" class="tsd-kind-icon">handle<wbr>Voice<wbr>Update</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
-								<a href="lib_node_Node.Node.html#on" class="tsd-kind-icon">on</a>
 							</li>
 						</ul>
 					</li>
@@ -176,10 +170,10 @@
 						<a href="../interfaces/lib_node_Node.DisconnectEvent.html" class="tsd-kind-icon">Disconnect<wbr>Event</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="../interfaces/lib_node_Node.NodeOptions.html" class="tsd-kind-icon">Node<wbr>Options</a>
+						<a href="../interfaces/lib_node_Node.NodeEvents.html" class="tsd-kind-icon">Node<wbr>Events</a>
 					</li>
-					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
-						<a href="../modules/lib_node_Node.html#NodeEvents" class="tsd-kind-icon">Node<wbr>Events</a>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="../interfaces/lib_node_Node.NodeOptions.html" class="tsd-kind-icon">Node<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
 						<a href="../modules/lib_node_Node.html#SendGatewayPayload" class="tsd-kind-icon">Send<wbr>Gateway<wbr>Payload</a>
@@ -192,7 +186,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<a href="lib_Utils.Emitter.html" class="tsd-signature-type" data-tsd-kind="Class">Emitter</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/lib_node_Node.html#NodeEvents" class="tsd-signature-type" data-tsd-kind="Type alias">NodeEvents</a><span class="tsd-signature-symbol">&gt;</span>
+						<span class="tsd-signature-type">TypedEmitter</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/lib_node_Node.NodeEvents.html" class="tsd-signature-type" data-tsd-kind="Interface">NodeEvents</a><span class="tsd-signature-symbol">&gt;</span>
 						<ul class="tsd-hierarchy">
 							<li>
 								<span class="target">Node</span>
@@ -204,6 +198,12 @@
 							</li>
 						</ul>
 					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/lib_Utils.Manager.html" class="tsd-signature-type" data-tsd-kind="Interface">Manager</a></li>
 				</ul>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
@@ -244,9 +244,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="lib_node_Node.Node.html#createPlayer" class="tsd-kind-icon">create<wbr>Player</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="lib_node_Node.Node.html#debug" class="tsd-kind-icon">debug</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="lib_node_Node.Node.html#destroyPlayer" class="tsd-kind-icon">destroy<wbr>Player</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited"><a href="lib_node_Node.Node.html#emit" class="tsd-kind-icon">emit</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="lib_node_Node.Node.html#handleVoiceUpdate" class="tsd-kind-icon">handle<wbr>Voice<wbr>Update</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited"><a href="lib_node_Node.Node.html#on" class="tsd-kind-icon">on</a></li>
 							</ul>
 						</section>
 					</div>
@@ -263,9 +261,9 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides <a href="lib_Utils.Emitter.html">Emitter</a>.<a href="lib_Utils.Emitter.html#constructor">constructor</a></p>
+								<p>Overrides TypedEmitter&lt;NodeEvents&gt;.constructor</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L44">src/lib/node/Node.ts:44</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L44">lib/node/Node.ts:44</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -287,7 +285,7 @@
 					<div class="tsd-signature tsd-kind-icon">conn<span class="tsd-signature-symbol">:</span> <a href="lib_node_Connection.Connection.html" class="tsd-signature-type" data-tsd-kind="Class">Connection</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L36">src/lib/node/Node.ts:36</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L36">lib/node/Node.ts:36</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -297,7 +295,7 @@
 					<div class="tsd-signature tsd-kind-icon">players<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="lib_Player.Player.html" class="tsd-signature-type" data-tsd-kind="Class">Player</a><span class="tsd-signature-symbol">&lt;</span><a href="lib_node_Node.Node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = ...</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L37">src/lib/node/Node.ts:37</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L35">lib/node/Node.ts:35</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -307,7 +305,7 @@
 					<div class="tsd-signature tsd-kind-icon">rest<span class="tsd-signature-symbol">:</span> <a href="lib_node_REST.REST.html" class="tsd-signature-type" data-tsd-kind="Class">REST</a><span class="tsd-signature-symbol"> = ...</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L35">src/lib/node/Node.ts:35</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L37">lib/node/Node.ts:37</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -317,27 +315,27 @@
 					<div class="tsd-signature tsd-kind-icon">send<wbr>Gateway<wbr>Payload<span class="tsd-signature-symbol">:</span> <a href="../modules/lib_node_Node.html#SendGatewayPayload" class="tsd-signature-type" data-tsd-kind="Type alias">SendGatewayPayload</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L38">src/lib/node/Node.ts:38</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L38">lib/node/Node.ts:38</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="state" class="tsd-anchor"></a>
 					<h3>state</h3>
-					<div class="tsd-signature tsd-kind-icon">state<span class="tsd-signature-symbol">:</span> <a href="../enums/lib_node_NodeState.NodeState.html" class="tsd-signature-type" data-tsd-kind="Enumeration">NodeState</a></div>
+					<div class="tsd-signature tsd-kind-icon">state<span class="tsd-signature-symbol">:</span> <a href="../enums/lib_node_NodeState.NodeState.html" class="tsd-signature-type" data-tsd-kind="Enumeration">NodeState</a><span class="tsd-signature-symbol"> = ...</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L40">src/lib/node/Node.ts:40</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L40">lib/node/Node.ts:40</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="stats" class="tsd-anchor"></a>
 					<h3>stats</h3>
-					<div class="tsd-signature tsd-kind-icon">stats<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">StatsData</span></div>
+					<div class="tsd-signature tsd-kind-icon">stats<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">StatsData</span><span class="tsd-signature-symbol"> = ...</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L41">src/lib/node/Node.ts:41</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L41">lib/node/Node.ts:41</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -347,7 +345,7 @@
 					<div class="tsd-signature tsd-kind-icon">user<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L42">src/lib/node/Node.ts:42</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L42">lib/node/Node.ts:42</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -357,7 +355,7 @@
 					<div class="tsd-signature tsd-kind-icon">DEBUG_<wbr>FORMAT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;{topic}: {message}&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L11">src/lib/node/Node.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L11">lib/node/Node.ts:11</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -367,7 +365,7 @@
 					<div class="tsd-signature tsd-kind-icon">DEBUG_<wbr>FORMAT_<wbr>PLAYER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;[player {player}] {topic}: {message}&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L12">src/lib/node/Node.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L12">lib/node/Node.ts:12</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -377,7 +375,7 @@
 					<div class="tsd-signature tsd-kind-icon">DEFAULT_<wbr>STATS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">StatsData</span><span class="tsd-signature-symbol"> = ...</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L13">src/lib/node/Node.ts:13</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L13">lib/node/Node.ts:13</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -394,7 +392,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L55">src/lib/node/Node.ts:55</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L53">lib/node/Node.ts:53</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -414,7 +412,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L68">src/lib/node/Node.ts:68</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L66">lib/node/Node.ts:66</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -437,7 +435,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L77">src/lib/node/Node.ts:77</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L75">lib/node/Node.ts:75</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -460,7 +458,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L102">src/lib/node/Node.ts:102</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L100">lib/node/Node.ts:100</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -489,46 +487,13 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L87">src/lib/node/Node.ts:87</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L85">lib/node/Node.ts:85</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>guild: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../modules/lib_Utils.html#DiscordResource" class="tsd-signature-type" data-tsd-kind="Type alias">DiscordResource</a></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
-					<a name="emit" class="tsd-anchor"></a>
-					<h3>emit</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">emit&lt;K&gt;<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Parameters</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/lib_node_Node.html#NodeEvents" class="tsd-signature-type" data-tsd-kind="Type alias">NodeEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<p>Inherited from <a href="lib_Utils.Emitter.html">Emitter</a>.<a href="lib_Utils.Emitter.html#emit">emit</a></p>
-								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/Utils.ts#L15">src/lib/Utils.ts:15</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-type-parameters-title">Type parameters</h4>
-							<ul class="tsd-type-parameters">
-								<li>
-									<h4>K<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">keyof </span><a href="../modules/lib_node_Node.html#NodeEvents" class="tsd-signature-type" data-tsd-kind="Type alias">NodeEvents</a></h4>
-								</li>
-							</ul>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>eventName: <span class="tsd-signature-type">K</span></h5>
-								</li>
-								<li>
-									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>args: <span class="tsd-signature-type">Parameters</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/lib_node_Node.html#NodeEvents" class="tsd-signature-type" data-tsd-kind="Type alias">NodeEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -545,7 +510,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L97">src/lib/node/Node.ts:97</a></li>
+									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L95">lib/node/Node.ts:95</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -555,39 +520,6 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
-					<a name="on" class="tsd-anchor"></a>
-					<h3>on</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">on&lt;K&gt;<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span>, listener<span class="tsd-signature-symbol">: </span><a href="../modules/lib_node_Node.html#NodeEvents" class="tsd-signature-type" data-tsd-kind="Type alias">NodeEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="lib_node_Node.Node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<p>Inherited from <a href="lib_Utils.Emitter.html">Emitter</a>.<a href="lib_Utils.Emitter.html#on">on</a></p>
-								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/Utils.ts#L14">src/lib/Utils.ts:14</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-type-parameters-title">Type parameters</h4>
-							<ul class="tsd-type-parameters">
-								<li>
-									<h4>K<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">keyof </span><a href="../modules/lib_node_Node.html#NodeEvents" class="tsd-signature-type" data-tsd-kind="Type alias">NodeEvents</a></h4>
-								</li>
-							</ul>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>eventName: <span class="tsd-signature-type">K</span></h5>
-								</li>
-								<li>
-									<h5>listener: <a href="../modules/lib_node_Node.html#NodeEvents" class="tsd-signature-type" data-tsd-kind="Type alias">NodeEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="lib_node_Node.Node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -607,6 +539,7 @@
 				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
 				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>

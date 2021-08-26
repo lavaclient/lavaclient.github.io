@@ -110,10 +110,10 @@
 						<a href="../interfaces/lib_node_Node.DisconnectEvent.html" class="tsd-kind-icon">Disconnect<wbr>Event</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="../interfaces/lib_node_Node.NodeOptions.html" class="tsd-kind-icon">Node<wbr>Options</a>
+						<a href="../interfaces/lib_node_Node.NodeEvents.html" class="tsd-kind-icon">Node<wbr>Events</a>
 					</li>
-					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
-						<a href="lib_node_Node.html#NodeEvents" class="tsd-kind-icon">Node<wbr>Events</a>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="../interfaces/lib_node_Node.NodeOptions.html" class="tsd-kind-icon">Node<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
 						<a href="lib_node_Node.html#SendGatewayPayload" class="tsd-kind-icon">Send<wbr>Gateway<wbr>Payload</a>
@@ -137,13 +137,13 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/lib_node_Node.ConnectEvent.html" class="tsd-kind-icon">Connect<wbr>Event</a></li>
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/lib_node_Node.DisconnectEvent.html" class="tsd-kind-icon">Disconnect<wbr>Event</a></li>
+								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/lib_node_Node.NodeEvents.html" class="tsd-kind-icon">Node<wbr>Events</a></li>
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/lib_node_Node.NodeOptions.html" class="tsd-kind-icon">Node<wbr>Options</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Type aliases</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-type-alias tsd-parent-kind-module"><a href="lib_node_Node.html#NodeEvents" class="tsd-kind-icon">Node<wbr>Events</a></li>
 								<li class="tsd-kind-type-alias tsd-parent-kind-module"><a href="lib_node_Node.html#SendGatewayPayload" class="tsd-kind-icon">Send<wbr>Gateway<wbr>Payload</a></li>
 							</ul>
 						</section>
@@ -153,137 +153,12 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Type aliases</h2>
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-module">
-					<a name="NodeEvents" class="tsd-anchor"></a>
-					<h3>Node<wbr>Events</h3>
-					<div class="tsd-signature tsd-kind-icon">Node<wbr>Events<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>connect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>debug<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>disconnect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>raw<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol"> }</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L111">src/lib/node/Node.ts:111</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter">
-								<h5>connect<span class="tsd-signature-symbol">: </span>function</h5>
-								<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-type-literal">
-									<li class="tsd-signature tsd-kind-icon">connect<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="../interfaces/lib_node_Node.ConnectEvent.html" class="tsd-signature-type" data-tsd-kind="Interface">ConnectEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<aside class="tsd-sources">
-											<ul>
-												<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L112">src/lib/node/Node.ts:112</a></li>
-											</ul>
-										</aside>
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>event: <a href="../interfaces/lib_node_Node.ConnectEvent.html" class="tsd-signature-type" data-tsd-kind="Interface">ConnectEvent</a></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-									</li>
-								</ul>
-							</li>
-							<li class="tsd-parameter">
-								<h5>debug<span class="tsd-signature-symbol">: </span>function</h5>
-								<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-type-literal">
-									<li class="tsd-signature tsd-kind-icon">debug<span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<aside class="tsd-sources">
-											<ul>
-												<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L115">src/lib/node/Node.ts:115</a></li>
-											</ul>
-										</aside>
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>message: <span class="tsd-signature-type">string</span></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-									</li>
-								</ul>
-							</li>
-							<li class="tsd-parameter">
-								<h5>disconnect<span class="tsd-signature-symbol">: </span>function</h5>
-								<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-type-literal">
-									<li class="tsd-signature tsd-kind-icon">disconnect<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="../interfaces/lib_node_Node.DisconnectEvent.html" class="tsd-signature-type" data-tsd-kind="Interface">DisconnectEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<aside class="tsd-sources">
-											<ul>
-												<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L113">src/lib/node/Node.ts:113</a></li>
-											</ul>
-										</aside>
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>event: <a href="../interfaces/lib_node_Node.DisconnectEvent.html" class="tsd-signature-type" data-tsd-kind="Interface">DisconnectEvent</a></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-									</li>
-								</ul>
-							</li>
-							<li class="tsd-parameter">
-								<h5>error<span class="tsd-signature-symbol">: </span>function</h5>
-								<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-type-literal">
-									<li class="tsd-signature tsd-kind-icon">error<span class="tsd-signature-symbol">(</span>error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Error</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<aside class="tsd-sources">
-											<ul>
-												<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L114">src/lib/node/Node.ts:114</a></li>
-											</ul>
-										</aside>
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>error: <span class="tsd-signature-type">Error</span></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-									</li>
-								</ul>
-							</li>
-							<li class="tsd-parameter">
-								<h5>raw<span class="tsd-signature-symbol">: </span>function</h5>
-								<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-type-literal">
-									<li class="tsd-signature tsd-kind-icon">raw<span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IncomingMessage</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<aside class="tsd-sources">
-											<ul>
-												<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L116">src/lib/node/Node.ts:116</a></li>
-											</ul>
-										</aside>
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>message: <span class="tsd-signature-type">IncomingMessage</span></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-module">
 					<a name="SendGatewayPayload" class="tsd-anchor"></a>
 					<h3>Send<wbr>Gateway<wbr>Payload</h3>
 					<div class="tsd-signature tsd-kind-icon">Send<wbr>Gateway<wbr>Payload<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><a href="lib_Utils.html#Snowflake" class="tsd-signature-type" data-tsd-kind="Type alias">Snowflake</a>, payload<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>d<span class="tsd-signature-symbol">: </span><a href="lib_Utils.html#Dictionary" class="tsd-signature-type" data-tsd-kind="Type alias">Dictionary</a><span class="tsd-signature-symbol">; </span>op<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">4</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/node/Node.ts#L110">src/lib/node/Node.ts:110</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Node.ts#L108">lib/node/Node.ts:108</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -328,6 +203,7 @@
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
 				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>

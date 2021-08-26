@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>OutgoingPayload | lavaclient</title>
+	<title>ManagerOptions | lavaclient</title>
 	<meta name="description" content="Documentation for lavaclient">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,13 +54,13 @@
 					<a href="../modules.html">lavaclient</a>
 				</li>
 				<li>
-					<a href="../modules/lib_node_Connection.html">lib/node/Connection</a>
+					<a href="../modules/lib_Utils.html">lib/Utils</a>
 				</li>
 				<li>
-					<a href="lib_node_Connection.OutgoingPayload.html">OutgoingPayload</a>
+					<a href="lib_Utils.ManagerOptions.html">ManagerOptions</a>
 				</li>
 			</ul>
-			<h1>Interface OutgoingPayload</h1>
+			<h1>Interface ManagerOptions</h1>
 		</div>
 	</div>
 </header>
@@ -78,7 +78,7 @@
 					<li class=" tsd-kind-module">
 						<a href="../modules/lib_Player.html">lib/<wbr>Player</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="../modules/lib_Utils.html">lib/<wbr>Utils</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -87,7 +87,7 @@
 					<li class=" tsd-kind-module">
 						<a href="../modules/lib_cluster_ClusterNode.html">lib/cluster/<wbr>Cluster<wbr>Node</a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="../modules/lib_node_Connection.html">lib/node/<wbr>Connection</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -103,38 +103,35 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-class tsd-parent-kind-module">
-						<a href="../classes/lib_node_Connection.Connection.html" class="tsd-kind-icon">Connection</a>
-					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="lib_node_Connection.ConnectionInfo.html" class="tsd-kind-icon">Connection<wbr>Info</a>
+						<a href="lib_Utils.Manager.html" class="tsd-kind-icon">Manager</a>
 					</li>
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="lib_node_Connection.OutgoingPayload.html" class="tsd-kind-icon">Outgoing<wbr>Payload</a>
+						<a href="lib_Utils.ManagerOptions.html" class="tsd-kind-icon">Manager<wbr>Options</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="lib_node_Connection.OutgoingPayload.html#data" class="tsd-kind-icon">data</a>
+								<a href="lib_Utils.ManagerOptions.html#sendGatewayPayload" class="tsd-kind-icon">send<wbr>Gateway<wbr>Payload</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-interface">
-								<a href="lib_node_Connection.OutgoingPayload.html#reject" class="tsd-kind-icon">reject</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-interface">
-								<a href="lib_node_Connection.OutgoingPayload.html#resolve" class="tsd-kind-icon">resolve</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="lib_Utils.ManagerOptions.html#user" class="tsd-kind-icon">user</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="lib_node_Connection.ReconnectOptions.html" class="tsd-kind-icon">Reconnect<wbr>Options</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="lib_node_Connection.ResumingOptions.html" class="tsd-kind-icon">Resuming<wbr>Options</a>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter">
+						<a href="../modules/lib_Utils.html#Dictionary" class="tsd-kind-icon">Dictionary</a>
 					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
-						<a href="../modules/lib_node_Connection.html#ReconnectDelay" class="tsd-kind-icon">Reconnect<wbr>Delay</a>
+						<a href="../modules/lib_Utils.html#DiscordResource" class="tsd-kind-icon">Discord<wbr>Resource</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
+						<a href="../modules/lib_Utils.html#Snowflake" class="tsd-kind-icon">Snowflake</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="../modules/lib_Utils.html#getId" class="tsd-kind-icon">get<wbr>Id</a>
 					</li>
 				</ul>
 			</nav>
@@ -144,7 +141,15 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">OutgoingPayload</span>
+						<span class="target">ManagerOptions</span>
+						<ul class="tsd-hierarchy">
+							<li>
+								<a href="lib_cluster_Cluster.ClusterOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">ClusterOptions</a>
+							</li>
+							<li>
+								<a href="lib_node_Node.NodeOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">NodeOptions</a>
+							</li>
+						</ul>
 					</li>
 				</ul>
 			</section>
@@ -155,14 +160,8 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="lib_node_Connection.OutgoingPayload.html#data" class="tsd-kind-icon">data</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section ">
-							<h3>Methods</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="lib_node_Connection.OutgoingPayload.html#reject" class="tsd-kind-icon">reject</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="lib_node_Connection.OutgoingPayload.html#resolve" class="tsd-kind-icon">resolve</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="lib_Utils.ManagerOptions.html#sendGatewayPayload" class="tsd-kind-icon">send<wbr>Gateway<wbr>Payload</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="lib_Utils.ManagerOptions.html#user" class="tsd-kind-icon">user</a></li>
 							</ul>
 						</section>
 					</div>
@@ -171,57 +170,24 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="data" class="tsd-anchor"></a>
-					<h3>data</h3>
-					<div class="tsd-signature tsd-kind-icon">data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">OutgoingMessage</span></div>
+					<a name="sendGatewayPayload" class="tsd-anchor"></a>
+					<h3>send<wbr>Gateway<wbr>Payload</h3>
+					<div class="tsd-signature tsd-kind-icon">send<wbr>Gateway<wbr>Payload<span class="tsd-signature-symbol">:</span> <a href="../modules/lib_node_Node.html#SendGatewayPayload" class="tsd-signature-type" data-tsd-kind="Type alias">SendGatewayPayload</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L224">lib/node/Connection.ts:224</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/Utils.ts#L11">lib/Utils.ts:11</a></li>
 						</ul>
 					</aside>
 				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Methods</h2>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
-					<a name="reject" class="tsd-anchor"></a>
-					<h3>reject</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
-						<li class="tsd-signature tsd-kind-icon">reject<span class="tsd-signature-symbol">(</span>error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Error</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L223">lib/node/Connection.ts:223</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>error: <span class="tsd-signature-type">Error</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
-					<a name="resolve" class="tsd-anchor"></a>
-					<h3>resolve</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
-						<li class="tsd-signature tsd-kind-icon">resolve<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/node/Connection.ts#L222">lib/node/Connection.ts:222</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="user" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> user</h3>
+					<div class="tsd-signature tsd-kind-icon">user<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../modules/lib_Utils.html#DiscordResource" class="tsd-signature-type" data-tsd-kind="Type alias">DiscordResource</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/Utils.ts#L12">lib/Utils.ts:12</a></li>
+						</ul>
+					</aside>
 				</section>
 			</section>
 		</div>
@@ -239,7 +205,6 @@
 			<ul class="tsd-legend">
 				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
 				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>

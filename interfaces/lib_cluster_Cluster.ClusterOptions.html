@@ -107,6 +107,9 @@
 						<a href="../classes/lib_cluster_Cluster.Cluster.html" class="tsd-kind-icon">Cluster</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="lib_cluster_Cluster.ClusterEvents.html" class="tsd-kind-icon">Cluster<wbr>Events</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="lib_cluster_Cluster.ClusterNodeOptions.html" class="tsd-kind-icon">Cluster<wbr>Node<wbr>Options</a>
 					</li>
 				</ul>
@@ -117,19 +120,16 @@
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="lib_cluster_Cluster.ClusterOptions.html#nodes" class="tsd-kind-icon">nodes</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 								<a href="lib_cluster_Cluster.ClusterOptions.html#sendGatewayPayload" class="tsd-kind-icon">send<wbr>Gateway<wbr>Payload</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 								<a href="lib_cluster_Cluster.ClusterOptions.html#user" class="tsd-kind-icon">user</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
-					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
-						<a href="../modules/lib_cluster_Cluster.html#ClusterEvents" class="tsd-kind-icon">Cluster<wbr>Events</a>
-					</li>
 				</ul>
 			</nav>
 		</div>
@@ -138,7 +138,12 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">ClusterOptions</span>
+						<a href="lib_Utils.ManagerOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">ManagerOptions</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">ClusterOptions</span>
+							</li>
+						</ul>
 					</li>
 				</ul>
 			</section>
@@ -150,8 +155,8 @@
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="lib_cluster_Cluster.ClusterOptions.html#nodes" class="tsd-kind-icon">nodes</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="lib_cluster_Cluster.ClusterOptions.html#sendGatewayPayload" class="tsd-kind-icon">send<wbr>Gateway<wbr>Payload</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="lib_cluster_Cluster.ClusterOptions.html#user" class="tsd-kind-icon">user</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="lib_cluster_Cluster.ClusterOptions.html#sendGatewayPayload" class="tsd-kind-icon">send<wbr>Gateway<wbr>Payload</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="lib_cluster_Cluster.ClusterOptions.html#user" class="tsd-kind-icon">user</a></li>
 							</ul>
 						</section>
 					</div>
@@ -165,27 +170,29 @@
 					<div class="tsd-signature tsd-kind-icon">nodes<span class="tsd-signature-symbol">:</span> <a href="lib_cluster_Cluster.ClusterNodeOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">ClusterNodeOptions</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/cluster/Cluster.ts#L77">src/lib/cluster/Cluster.ts:77</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/cluster/Cluster.ts#L70">lib/cluster/Cluster.ts:70</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="sendGatewayPayload" class="tsd-anchor"></a>
 					<h3>send<wbr>Gateway<wbr>Payload</h3>
 					<div class="tsd-signature tsd-kind-icon">send<wbr>Gateway<wbr>Payload<span class="tsd-signature-symbol">:</span> <a href="../modules/lib_node_Node.html#SendGatewayPayload" class="tsd-signature-type" data-tsd-kind="Type alias">SendGatewayPayload</a></div>
 					<aside class="tsd-sources">
+						<p>Inherited from <a href="lib_Utils.ManagerOptions.html">ManagerOptions</a>.<a href="lib_Utils.ManagerOptions.html#sendGatewayPayload">sendGatewayPayload</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/cluster/Cluster.ts#L78">src/lib/cluster/Cluster.ts:78</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/Utils.ts#L11">lib/Utils.ts:11</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="user" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> user</h3>
 					<div class="tsd-signature tsd-kind-icon">user<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../modules/lib_Utils.html#DiscordResource" class="tsd-signature-type" data-tsd-kind="Type alias">DiscordResource</a></div>
 					<aside class="tsd-sources">
+						<p>Inherited from <a href="lib_Utils.ManagerOptions.html">ManagerOptions</a>.<a href="lib_Utils.ManagerOptions.html#user">user</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/cluster/Cluster.ts#L79">src/lib/cluster/Cluster.ts:79</a></li>
+							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/fc879ee/src/lib/Utils.ts#L12">lib/Utils.ts:12</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -198,6 +205,7 @@
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
 				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>

@@ -104,13 +104,13 @@
 						<a href="../classes/lib_cluster_Cluster.Cluster.html" class="tsd-kind-icon">Cluster</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="../interfaces/lib_cluster_Cluster.ClusterEvents.html" class="tsd-kind-icon">Cluster<wbr>Events</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="../interfaces/lib_cluster_Cluster.ClusterNodeOptions.html" class="tsd-kind-icon">Cluster<wbr>Node<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="../interfaces/lib_cluster_Cluster.ClusterOptions.html" class="tsd-kind-icon">Cluster<wbr>Options</a>
-					</li>
-					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
-						<a href="lib_cluster_Cluster.html#ClusterEvents" class="tsd-kind-icon">Cluster<wbr>Events</a>
 					</li>
 				</ul>
 			</nav>
@@ -129,134 +129,11 @@
 						<section class="tsd-index-section ">
 							<h3>Interfaces</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/lib_cluster_Cluster.ClusterEvents.html" class="tsd-kind-icon">Cluster<wbr>Events</a></li>
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/lib_cluster_Cluster.ClusterNodeOptions.html" class="tsd-kind-icon">Cluster<wbr>Node<wbr>Options</a></li>
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/lib_cluster_Cluster.ClusterOptions.html" class="tsd-kind-icon">Cluster<wbr>Options</a></li>
 							</ul>
 						</section>
-						<section class="tsd-index-section ">
-							<h3>Type aliases</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-type-alias tsd-parent-kind-module"><a href="lib_cluster_Cluster.html#ClusterEvents" class="tsd-kind-icon">Cluster<wbr>Events</a></li>
-							</ul>
-						</section>
-					</div>
-				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Type aliases</h2>
-				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-module">
-					<a name="ClusterEvents" class="tsd-anchor"></a>
-					<h3>Cluster<wbr>Events</h3>
-					<div class="tsd-signature tsd-kind-icon">Cluster<wbr>Events<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>nodeConnect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>nodeDebug<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>nodeDisconnect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>nodeError<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol"> }</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/cluster/Cluster.ts#L69">src/lib/cluster/Cluster.ts:69</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter">
-								<h5>node<wbr>Connect<span class="tsd-signature-symbol">: </span>function</h5>
-								<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-type-literal">
-									<li class="tsd-signature tsd-kind-icon">node<wbr>Connect<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="../classes/lib_cluster_ClusterNode.ClusterNode.html" class="tsd-signature-type" data-tsd-kind="Class">ClusterNode</a>, event<span class="tsd-signature-symbol">: </span><a href="../interfaces/lib_node_Node.ConnectEvent.html" class="tsd-signature-type" data-tsd-kind="Interface">ConnectEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<aside class="tsd-sources">
-											<ul>
-												<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/cluster/Cluster.ts#L70">src/lib/cluster/Cluster.ts:70</a></li>
-											</ul>
-										</aside>
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>node: <a href="../classes/lib_cluster_ClusterNode.ClusterNode.html" class="tsd-signature-type" data-tsd-kind="Class">ClusterNode</a></h5>
-											</li>
-											<li>
-												<h5>event: <a href="../interfaces/lib_node_Node.ConnectEvent.html" class="tsd-signature-type" data-tsd-kind="Interface">ConnectEvent</a></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-									</li>
-								</ul>
-							</li>
-							<li class="tsd-parameter">
-								<h5>node<wbr>Debug<span class="tsd-signature-symbol">: </span>function</h5>
-								<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-type-literal">
-									<li class="tsd-signature tsd-kind-icon">node<wbr>Debug<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="../classes/lib_cluster_ClusterNode.ClusterNode.html" class="tsd-signature-type" data-tsd-kind="Class">ClusterNode</a>, message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<aside class="tsd-sources">
-											<ul>
-												<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/cluster/Cluster.ts#L73">src/lib/cluster/Cluster.ts:73</a></li>
-											</ul>
-										</aside>
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>node: <a href="../classes/lib_cluster_ClusterNode.ClusterNode.html" class="tsd-signature-type" data-tsd-kind="Class">ClusterNode</a></h5>
-											</li>
-											<li>
-												<h5>message: <span class="tsd-signature-type">string</span></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-									</li>
-								</ul>
-							</li>
-							<li class="tsd-parameter">
-								<h5>node<wbr>Disconnect<span class="tsd-signature-symbol">: </span>function</h5>
-								<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-type-literal">
-									<li class="tsd-signature tsd-kind-icon">node<wbr>Disconnect<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="../classes/lib_cluster_ClusterNode.ClusterNode.html" class="tsd-signature-type" data-tsd-kind="Class">ClusterNode</a>, event<span class="tsd-signature-symbol">: </span><a href="../interfaces/lib_node_Node.DisconnectEvent.html" class="tsd-signature-type" data-tsd-kind="Interface">DisconnectEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<aside class="tsd-sources">
-											<ul>
-												<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/cluster/Cluster.ts#L71">src/lib/cluster/Cluster.ts:71</a></li>
-											</ul>
-										</aside>
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>node: <a href="../classes/lib_cluster_ClusterNode.ClusterNode.html" class="tsd-signature-type" data-tsd-kind="Class">ClusterNode</a></h5>
-											</li>
-											<li>
-												<h5>event: <a href="../interfaces/lib_node_Node.DisconnectEvent.html" class="tsd-signature-type" data-tsd-kind="Interface">DisconnectEvent</a></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-									</li>
-								</ul>
-							</li>
-							<li class="tsd-parameter">
-								<h5>node<wbr>Error<span class="tsd-signature-symbol">: </span>function</h5>
-								<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-type-literal">
-									<li class="tsd-signature tsd-kind-icon">node<wbr>Error<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="../classes/lib_cluster_ClusterNode.ClusterNode.html" class="tsd-signature-type" data-tsd-kind="Class">ClusterNode</a>, error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Error</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<aside class="tsd-sources">
-											<ul>
-												<li>Defined in <a href="https://github.com/lavaclient/lavaclient/blob/4304eac/src/lib/cluster/Cluster.ts#L72">src/lib/cluster/Cluster.ts:72</a></li>
-											</ul>
-										</aside>
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>node: <a href="../classes/lib_cluster_ClusterNode.ClusterNode.html" class="tsd-signature-type" data-tsd-kind="Class">ClusterNode</a></h5>
-											</li>
-											<li>
-												<h5>error: <span class="tsd-signature-type">Error</span></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-									</li>
-								</ul>
-							</li>
-						</ul>
 					</div>
 				</section>
 			</section>
@@ -268,6 +145,7 @@
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
 				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
